@@ -19,3 +19,19 @@
 **/yarn.lock
 **/package.json
 node_modules
+
+# Rust
+# Rust binary files
+**/target/
+
+# Compiled dynamic libraries
+*.so
+
+# Compiled static libraries
+*.a
+
+# Generated documentation
+/target/doc/
+
+# Environment file
+.env
